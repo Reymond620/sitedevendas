@@ -145,6 +145,7 @@
     margin-top: 20px;
     font-size: 1.5em;
     color: #232F3E;
+    margin-right: 50px; /* Alinhamento mais à esquerda do nome */
   }
   
   @media (max-width: 768px) {
