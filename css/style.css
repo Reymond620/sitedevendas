@@ -97,4 +97,40 @@
       margin: 10px 0;
     }
   }
+  .contato {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+  }
   
+  .contato h3 {
+    font-size: 2em;
+    color: #232F3E;
+    margin-bottom: 20px;
+  }
+  
+  .contato p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .contato ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contato ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .contato ul li a {
+    color: #ff7f00;
+    text-decoration: none;
+  }
+  
+  .contato ul li a:hover {
+    text-decoration: underline;
+  }
+    
