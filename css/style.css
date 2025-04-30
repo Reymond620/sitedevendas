@@ -99,38 +99,63 @@
   }
   .contato {
     background-color: #f4f4f4;
-    padding: 40px 0;
+    padding: 60px 0;
     text-align: center;
   }
   
   .contato h3 {
-    font-size: 2em;
+    font-size: 2.5em;
+    color: #ff7f00; /* Laranja para o título */
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .informacoes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .info {
+    font-size: 1.2em;
+    text-align: left;
+  }
+  
+  .info strong {
     color: #232F3E;
-    margin-bottom: 20px;
+    font-weight: bold;
   }
   
-  .contato p {
-    font-size: 1.2em;
+  .info p {
     color: #666;
-    margin-bottom: 15px;
   }
   
-  .contato ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .contato ul li {
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
-  
-  .contato ul li a {
+  .info a {
     color: #ff7f00;
     text-decoration: none;
   }
   
-  .contato ul li a:hover {
+  .info a:hover {
     text-decoration: underline;
+  }
+  
+  .nome {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #232F3E;
+  }
+  
+  @media (max-width: 768px) {
+    .informacoes {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .nome {
+      text-align: center;
+      margin-top: 30px;
+    }
   }
     
