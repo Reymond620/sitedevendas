@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #f4f4f4;
+  }
+  
+  .produtos {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .produtos h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .produto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .produto-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .produto-card h4 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .produto-card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .produto-card .preco {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ff7f00;
+    margin-bottom: 15px;
+  }
+  
+  .produto-card button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff7f00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .produto-card button:hover {
+    background-color: #ff5500;
+  }
+  
+  @media (max-width: 768px) {
+    .produto-card {
+      width: 90%;
+      margin: 10px 0;
+    }
+  }
+  
